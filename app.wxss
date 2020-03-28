@@ -1,0 +1,21 @@
+/* 全局引入阿里icon图标 */
+@import "./styles/iconfont.wxss";
+
+@import "colorui/icon.wxss";
+@import "colorui/main.wxss";
+@import "colorui/animation.wxss";
+/* 全局样式 */
+
+page, view, text, swiper, swiper-item, image, navigator,  {
+  padding: 0rpx;
+  margin: 0rpx;
+  box-sizing: border-box;
+}
+
+page {
+  /* 定义主题颜色 */
+  --themeColor: #39b54a;
+  /* 定义统一字体大小 */
+  font-size: 35rpx;
+
+}

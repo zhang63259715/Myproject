@@ -1,0 +1,121 @@
+
+.user {
+  display: flex;
+  padding: 20rpx;
+  font-size: 30rpx;
+}
+
+.user_info {
+  flex: 5;
+}
+
+.user_number {
+  flex: 3;
+  text-align: right;
+}
+
+.carts_title {
+  padding: 20rpx;
+  font-size: 36rpx;
+  color: var(--themeColor);
+  border-top: 2rpx solid var(--themeColor);
+  border-bottom: 2rpx solid var(--themeColor);
+}
+
+.carts_main .carts_items {
+  display: flex;
+  border-bottom: 2rpx solid #ccc;
+  padding: 10rpx;
+}
+
+
+.carts_main .carts_items .carts_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+  width: 280rpx;
+  height: 280rpx;
+}
+
+.carts_img .img {
+  width: 240rpx;
+}
+
+.carts_main .carts_items .carts_detail {
+  flex: 4;
+}
+
+.carts_main .carts_items .carts_detail .goods_name {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  color: #2a2a2a;
+  padding: 36rpx;
+}
+
+.goods_price_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.goods_price_list .goods_price {
+  color: rgb(223, 33, 33);
+  font-size: 36rpx;
+  font-weight: 600;
+  padding: 10rpx;
+}
+
+.cartnum {
+  display: flex;
+}
+
+
+
+
+.cartnum .goods_num {
+  padding: 8rpx;
+}
+
+.footer_tool {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  width: 100%;
+  height: 100rpx;
+  background-color: #fff;
+  border-top: 1rpx solid #ccc;
+}
+
+
+.all_price {
+  flex: 5;
+  text-align: right;
+  padding-right: 10rpx;
+}
+
+.all_price .total_priceall {
+  color: rgb(223, 33, 33);
+  font-size: 40rpx;
+  font-weight: 600;
+}
+
+.all_pay {
+  flex: 2;
+  font-size: 40rpx;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center; /*垂直居中*/
+  justify-content: center; /*水平居中*/
+  height: 100%;
+
+}

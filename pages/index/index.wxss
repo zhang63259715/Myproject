@@ -1,0 +1,44 @@
+
+
+.jingpin {
+  align-content: center;
+  text-align: center;
+  padding: 10rpx;
+  font-size: 45rpx;
+  color:var(--themeColor);
+}
+
+.goodslist {
+  border-top: 6rpx solid #ededed;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+}
+
+.goodslistitem {
+  padding-top: 20rpx;
+  margin: 20rpx;
+}
+
+.goodsname {
+  display: block;
+  font-size: 35rpx;
+  line-height: 44rpx;
+  margin: 0 20rpx;
+}
+
+.goodsimg {
+  display: block;
+  width: 320rpx;
+  height: 320rpx;
+  margin: 0 auto;
+}
+
+.goodsprice{
+  display: flex;
+  margin: 0 20rpx;
+  justify-content: space-between;
+  font-size: 30rpx;
+  color: rgb(236, 76, 76);
+}

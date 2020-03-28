@@ -1,0 +1,46 @@
+<view  wx:for="{{goodsObject}}" wx:key="index">
+
+  <view class="goodsdetail">
+    <view class="goodsimg">
+      <image src="{{item.goods_img}}"></image>
+    </view>
+
+    <view class="goods_text">
+      <view class="goodsprice">￥{{item.goods_price}}.00</view>
+    </view>
+
+    <view class="goods_info">
+      <view class="xiangxi">详细喝法</view>
+      <view class="goodsdetail">{{item.goods_detail}}</view>
+    </view>
+    
+  </view>
+  <!-- 底部按钮 -->
+<view class="btm_tool">
+
+<view class="tools_item">
+<view class="iconfont icon-kefu"></view>
+<view>客服</view>
+<button open-type="contact"></button>
+</view>
+
+<view class="tools_item">
+<view class="iconfont icon-fenxiang"></view>
+<view>分享</view>
+<button open-type="share"></button>
+</view>
+
+<view class="tools_item">
+<view class="iconfont icon-zhifu"></view>
+<view>购物车</view>
+<button bindtap="gouwuche"></button>
+</view>
+
+<view class="carts" bindtap="addcarts" data-name="{{item.goods_name}}"
+data-price="{{item.goods_price}}" data-img="{{item.goods_img}}" data-num="1" data-checked="true" data-id="{{item.goods_id}}">加入购物车</view>
+
+<view class="bay" bindtap="baycarts" data-name="{{item.goods_name}}"
+data-price="{{item.goods_price}}" data-img="{{item.goods_img}}" data-num="1" data-checked="true" data-id="{{item.goods_id}}">立即购买</view>
+
+</view>
+</view>

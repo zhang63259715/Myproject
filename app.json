@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/goods_detail/goods_detail",
+    "pages/cart/cart",
+    "pages/user/user",
+    "pages/address/address",
+    "pages/pay/pay"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#39b54a",
+    "navigationBarTitleText": "九州茶行",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/shouye_no.png",
+        "selectedIconPath": "icons/shouye_yes.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "icons/gouwuche_no.png",
+        "selectedIconPath": "icons/gouwuche_yes.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "icons/wode_no.png",
+        "selectedIconPath": "icons/wode_yes.png"
+      }
+    ],
+    "color": "#585858",
+    "borderStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
